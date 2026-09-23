@@ -1,0 +1,21 @@
+{
+  "name": "khan-market-afghanistan",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint . --ext .ts",
+    "test": "node --test --experimental-strip-types dist/tests/*.test.js",
+    "dev": "node --watch --loader ts-node/esm src/index.ts"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "eslint": "^9.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
