@@ -1,0 +1,3 @@
+WORK ITEM 02-G DIAGNOSTIC PUSH
+This file is a temporary repository write-access verification marker.
+No application functionality is contained here.
