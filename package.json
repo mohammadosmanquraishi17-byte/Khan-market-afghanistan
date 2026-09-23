@@ -6,11 +6,14 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "lint": "eslint . --ext .ts",
-    "test": "node --test --experimental-strip-types dist/tests/*.test.js",
+    "test": "node --test dist/tests/*.test.js",
     "dev": "node --watch --loader ts-node/esm src/index.ts"
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
